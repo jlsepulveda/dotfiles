@@ -13,3 +13,5 @@ sudo unzip zip
 sudo rm zip
 #END SETTING UP NORD VPN
 sudo apt-get install subversion
+#encriptation
+sudo apt-get install cryptsetup
