@@ -15,5 +15,8 @@ sudo rm zip
 sudo apt-get install subversion
 #encriptation
 sudo apt-get install cryptsetup
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
+sudo apt-get update
 sudo apt install r-base-core
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
