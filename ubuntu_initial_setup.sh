@@ -15,4 +15,5 @@ sudo rm zip
 sudo apt-get install subversion
 #encriptation
 sudo apt-get install cryptsetup
+sudo apt install r-base-core
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
