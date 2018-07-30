@@ -13,6 +13,10 @@ sudo unzip zip
 sudo rm zip
 #END SETTING UP NORD VPN
 sudo apt-get install subversion
+#General Tools
+sudo apt-get install zip
+#Installing Java
+sudo apt-get install default-jre
 #encriptation
 sudo apt-get install cryptsetup
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
@@ -20,3 +24,7 @@ sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linu
 sudo apt-get update
 sudo apt install r-base-core
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sudo apt-get install htop
+#installing SDK Man to management multiples version of diferents SDKs
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
