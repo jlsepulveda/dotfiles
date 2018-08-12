@@ -6,13 +6,18 @@ sudo apt-get install vpnc
 sudo apt-get install default-jre default-jdk 
 #START SETTING UP NORD VPN
 sudo cd /etc/openvpn
-sudo wget https://nordvpn.com/api/files/zip
+#Downloading Files
+sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
 sudo apt-get install ca-certificates
 sudo apt-get install unzip
 sudo unzip zip
+unzip openvpn.zip -d openvpn
 sudo rm zip
+sudo cp openvpn/ca.rsa.2048.crt openvpn/crl.rsa.2048.pem /etc/openvpn/
+sudo cp openvpn/Japan.ovpn /etc/openvpn/Japan.conf
 #END SETTING UP NORD VPN
 sudo apt-get install subversion
+sudo apt-get install iptables-persistent
 #General Tools
 sudo apt-get install zip
 #Installing Java
