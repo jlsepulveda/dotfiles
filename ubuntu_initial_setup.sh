@@ -39,3 +39,6 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sudo apt-get install awscli
 sudo apt-get install python-pip
 sudo pip install aws-shell
+
+#Programming 
+sudo apt-get install ruby
