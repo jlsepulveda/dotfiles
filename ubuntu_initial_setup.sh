@@ -33,3 +33,9 @@ sudo apt-get install htop
 #installing SDK Man to management multiples version of diferents SDKs
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+#Cloud Services
+#Amazon
+sudo apt-get install awscli
+sudo apt-get install python-pip
+sudo pip install aws-shell
