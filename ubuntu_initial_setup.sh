@@ -62,3 +62,4 @@ make
 sudo make install
 #End password Management
 sudo apt-get install terminator
+sudo apt-get install tmux
